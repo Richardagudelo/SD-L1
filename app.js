@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', function (req, res) {
   setTimeout(() => {
-    res.send('<h1>Pruebas de rendimiento v1.0</h1><p>Sistemas distribuidos 122132</p><p>v1.0.1</p>');
+    res.send('<h1>Pruebas de rendimiento v1.0</h1><p>Sistemas distribuidos 122132+1</p><p>v1.0.1</p>');
   }, Math.floor(Math.random() * 10000));
 });
 
